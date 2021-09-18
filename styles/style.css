@@ -86,10 +86,21 @@ input:hover{
 
 .task-list{
    display: flex;
-   justify-content: space-between;
    flex-direction: row;
+   
 }
-
+.task-list-btn{
+   color: #fff;
+   background-color: #3498DB;
+   border:none;
+   padding:10px;
+   border-radius: 10px;
+   margin: 5px;
+   min-width: 80px;
+}
+.task-list-btn:hover{
+   background-color: #31acff;
+}
  
 body{
 background-image: url("/images/background.jpg");
