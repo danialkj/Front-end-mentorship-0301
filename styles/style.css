@@ -1,0 +1,115 @@
+
+@import "reset.css";
+
+ :root{
+    --darkColor : #515151 ;
+    --lightColore : #fff ;
+    --midnightbBlueColor : #0a84a0;
+    --lightGreenColor: #01a3a4;
+
+ }
+ * {
+    box-sizing: border-box;
+  }
+h2{
+   text-align: center;
+   color: #fff;
+   margin-top: 20px;
+   margin-bottom: 30px;
+   font-size: 22px;
+}
+
+#main-content { 
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+  
+   align-items: center;
+ 
+   justify-content: center;
+  
+   flex-direction: column;
+}
+  /**********  section 1  */
+  #section-1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+    width: max-content;
+    background-color:#e5eef3a6;
+    border:none;
+    border-radius: 20px;
+    
+
+  }
+
+
+  /**********  task manager */
+ .task-manager-panel {
+     width: 100%;
+     padding: 1.2rem;
+
+  }
+
+input{
+
+   background-color: #fff;
+   border:none;
+   padding:10px;
+   border-radius: 10px;
+   width: 100%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+}
+input:hover{
+ background-color: rgb(207, 210, 250);
+ }
+ 
+
+ 
+
+#form-submit-btn{
+   margin: auto;
+   width: 100%;
+   margin-top: 10px;
+   padding:.8rem;
+   align-items: center;
+   color: #fff;
+   background-color: #3498DB;
+   
+}
+#form-submit-btn:hover{
+   background-color: #31acff;
+}
+
+.task-list{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+}
+
+ 
+body{
+background-image: url("/images/background.jpg");
+background-color: #cccccc;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+
+
+@media only screen and (max-width: 600px){
+#section-1{
+   width: auto;
+   height: 100vmax;
+}
+
+
+
+}
+
+
